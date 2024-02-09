@@ -11,3 +11,120 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.signin-container{
+  background-image: url("https://img.freepik.com/free-vector/flat-design-travel-background_23-2149193475.jpg?w=2000");
+  
+  
+  padding: 40px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-page-container{
+  
+  
+
+  /* background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/sky-cloud-air-malaysia-weechiams11urlcomtw.jpg"); */
+/* opacity: 0.2; */
+
+
+/* background-image: url("https://img.freepik.com/free-vector/flat-design-travel-background_23-2149193475.jpg?w=2000"); */
+
+/* background-image: url("https://c1.wallpaperflare.com/preview/725/423/706/sky-blue-blue-sky-background.jpg"); */
+background-image: url('../public/images/bg.jpg');
+background-size: cover;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+/* overflow-y: scroll; */
+
+  
+  
+
+}
+
+
+
+
+
+
+
+.bg-img{
+  
+    position: absolute;
+    /* position: relative; */
+    left: 0;
+    top: 0;
+    
+    width: 100%;
+    /* height: auto; */
+    height: 100%;
+    opacity: 0.2;
+    /* overflow-y: auto; */
+    
+
+}
+
+.main-sub-page-container{
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.cover-page{
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+.logo-img{
+
+  width: 90px;
+  position: absolute;
+  top: 23%;
+  left: 10px;
+
+}
+
+.err-mssg{
+
+  color: #dc3545;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+.footer{
+  /* position: fixed; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color:transparent;
+  color: white;
+  text-align: center;
+}
+
+.main-code{
+  height: auto;
+  
+}
+
+.single-card{
+  height: auto;
+}
+
+.page-not-found{
+  background-image: url('https://thumbs.dreamstime.com/b/oops-something-went-wrong-error-page-concept-vector-illustration-114821176.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  background-repeat: none;
+  
+  
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
